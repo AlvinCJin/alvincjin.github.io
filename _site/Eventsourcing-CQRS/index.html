@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Sourcing and CQRS – Alvin Jin – Big Data Tech Lead</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="The real-world is all about collaboration, intentions and eventually dealing with issues by compensating use-cases for exception handling.
+
+" />
+    <meta property="og:description" content="The real-world is all about collaboration, intentions and eventually dealing with issues by compensating use-cases for exception handling.
+
+" />
+    
+    <meta name="author" content="Alvin Jin" />
+
+    
+    <meta property="og:title" content="Event Sourcing and CQRS" />
+    <meta property="twitter:title" content="Event Sourcing and CQRS" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Alvin Jin - Big Data Tech Lead" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+    
+    
+    <div class="intro-header">    
+      <div class="container">
+        <div class="post-heading">
+            <h1>Event Sourcing and CQRS</h1>
+            <span class="meta">Posted by <a href="/about"> Alvin Jin
+            </a> on May 19, 2016
+            <a href="/"> { Return to Blog }</a>
+            </span>
+        </div>
+            
+      </div>
+    </div>
+    
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+ <div class="space-extra-small">
+ </div>
+
+  <div class="entry">
+    <p>The real-world is all about collaboration, intentions and eventually dealing with issues by compensating use-cases for exception handling.</p>
+
+<h2 id="whats-event-sourcing">What’s Event Sourcing?</h2>
+<hr />
+<p>Event:</p>
+
+<p>Atomic,
+Immutable,
+Happened in the past,
+Reflect use-cases,
+Single source of truth</p>
+
+<p>Event-driven:</p>
+
+<p>Eventually consistent,
+Split-up use-cases &amp; transactions,
+Communication via events,
+Events published reliably</p>
+
+<p>Enables building a forward-compatible application architecture - the ability to add more application in the future that need to process the same event but create a different materialized view.
+The essence of event sourcing: rather than performing destructive state mutation on a database when writing to it, we should record every write as a “command”, as an immutable event.</p>
+
+<p>All changes to application state are stored as a sequence of events. This sequence of events can be used to query the current state of an object but also the history of an object. Event sourcing allows one to create different kinds of views, even views which one did not even think of when creating the application. Event store only directly supports PK-based lookup =&gt; use CQRS to handle.</p>
+
+<h2 id="command-query-responsibility-segregationcqrs">Command Query Responsibility Segregation(CQRS)</h2>
+<hr />
+<p>An application architecture pattern most commonly used with event sourcing. CQRS involves splitting an application into two parts internally - the command side ordering the system to update state and the query side that gets information without changing state. The command or write side is all about the business; it doesn’t care about the queries. On the other hand, the query or read side is all about the read access; its main purpose is making queries fast and efficient.</p>
+
+<p>The way event sourcing works with CQRS is to have part of the application models updates as writes to an event log or Kafka topic. This is paired with an event handler that subscribes to the Kafka topic, transforms the event and writes the materialized view to a read store. Finally, the read part of the application issues queries against the read store.</p>
+
+<p>CQRS decouples the load from writes and reads allowing each to be scaled and optimized independently.The input events are quite simple. They are immutable facts, we can simply store them all. The database we read from is just a cached view of the event log.
+The beautiful thing about this separation between source of truth and caches is that in your caches, you can denormalize data to your content.</p>
+
+<p>To perform an action in the domain, you have to send a command to it. The command will be validated and processed. This will lead to one or more events that are stored in the journal. This is the Command part of CQRS.
+To create a view of the domain model (which is eventsourced) you have to collect the events and process them into a view. This is Query part of CQRS.</p>
+
+<p>Advantages:</p>
+
+<p>If you write data to the database in the same schema as you use for reading, you have tight coupling between the part of the application doing the writing and the part doing the reading. Otherwise, you can have fast writes and fast reads. If data is immutable, you can always replay events in the same order when something is wrong.</p>
+
+<h2 id="why-scala-and-akka">Why Scala and Akka?</h2>
+
+<p>The Akka actor model works on the basis of processing a command and outputting one or many events that represent the result of processing that command.</p>
+
+<p>Scala is a great language for implementing ES-based domain models:
+Case classes
+Pattern matching
+Recreating state = functional fold over events</p>
+
+
+  </div>
+
+  
+</article>
+
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+            <div class="svg-icon">
+          
+<a href="mailto:alvincjin@gmail.com"><i class="icon-envelope icon-2x"></i></a>
+
+
+<a href="https://github.com/alvincjin"><i class="icon-github icon-2x"></i></a>
+
+<a href="https://www.linkedin.com/in/changjiu-jin-50085a34"><i class="icon-linkedin-sign icon-2x"></i></a>
+
+
+
+
+
+
+
+            </div>
+        </footer>
+      </div>
+    </div>
+
+
+    
+
+  </body>
+</html>
