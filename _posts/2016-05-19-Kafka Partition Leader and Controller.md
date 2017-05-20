@@ -4,8 +4,12 @@ title: Kafka Partition Leader and Controller
 author: Alvin Jin
 ---
 
-##Zookeeper and Controller
+Kafka uses Zookeeper for the following:
+* Electing a controller. The controller is one of the brokers and is responsible for maintaining the leader/follower relationship for all the partitions. When a node shuts down, it is the controller that tells other replicas to become partition leaders to replace the partition leaders on the node that is going away. Zookeeper is used to elect a controller, make sure there is only one and elect a new one it if it crashes.
+* Cluster membership - which brokers are alive and part of the cluster? this is also managed through ZooKeeper.
+* Topic configuration - which topics exist, how many partitions each has, where are the replicas, who is the preferred leader, what configuration overrides are set for each topic.
 
+##Zookeeper and Controller
 -----
 
 Every time a broker process starts, it registers itself with its id in Zookeper by creating an ephemeral node. When a broker loses connectivity to Zookeeper, the ephemeral node that the broker created when starting will be automatically removed from Zookeeper. Kafka components that are watching the list of brokers will be notified for that.
@@ -15,7 +19,6 @@ The controller is one of kafka brokers is also responsible for the task of elect
 When the controller announces that a partition has a new leader, it sends LeaderAndIsr request to the new leader and the followers.
 
 ##Request Processing
-
 -----
 
 All requests sent to the broker from a specific client will be processd in the order they were received. Both produce requests(producer) and fetch requests(consumers and followers) have to be sent to the leader replica of a partition.
@@ -24,7 +27,6 @@ Kafka clients uses another request "metadata request" to know where to send the 
 Metadata request includes a list of topics the client is interested in. It can be sent to any broker since all brokers have a metadata cache taht contains this information. Clients typically cache this information, and need to occasinally refresh it by sending metadata requests.
 
 ##In-Sync Replica(ISR)
-
 ------
 In order to stay in sync with the leader, the replicas send the leader Fetch requests. Only in-sync replicas are eligible to be elected as partition leaders in case the existing leader fails.
 
