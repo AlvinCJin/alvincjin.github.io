@@ -38,6 +38,24 @@ Data Platform Tech Lead @ Ethoca Technologies Inc.
 
 ***
 
+## Publications
+
+* Changjiu Jin, Rui Liu, Kenneth Salem.
+Materialized Views for Eventually Consistent Record Stores.
+Second International Workshop on Data Management in the Cloud (ICDE 2013).
+
+* Changjiu Jin, Sourav S. Bhowmick, Byron Choi, and Shuigeng Zhou.
+PRAGUE: Towards Blending Practical Visual Subgraph Query Formulation and Query Processing.
+Proceedings of the 28th IEEE International Conference on Data Engineering (ICDE 2012).
+
+* Changjiu Jin, Sourav S. Bhowmick, Xiaokui Xiao, Byron Choi, and Shuigeng Zhou.
+GBLENDER: Visual Subgraph Query Formulation Meets Query Processing.
+Proceedings of the 37th ACM International Conference on Management of Data (SIGMOD 2011).
+
+* Changjiu Jin, Sourav S. Bhowmick, Xiaokui Xiao, James Cheng, and Byron Choi.
+GBLENDER: Towards Blending Visual Query Formulation and Query Processing in Graph Databases.
+Proceedings of the 36th ACM International Conference on Management of Data (SIGMOD 2010).
+
 ## Contact
 
 **Email:** [alvincjin@gmail.com](mailto:alvincjin@gmail.com)

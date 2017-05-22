@@ -1,3 +1,8 @@
+---
+layout: post
+title: Reading List
+author: Alvin Jin
+---
 
 Below table records the technical books, which I read before and am working on right now.
 Highly recommend to the community.
