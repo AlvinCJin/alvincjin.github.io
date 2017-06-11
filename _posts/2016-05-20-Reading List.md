@@ -7,16 +7,16 @@ author: Alvin Jin
 Below table records the technical books, which I read before and am working on right now.
 Highly recommend to the community.
 
-### 2017: Kafka, Machine Learning
+### 2017: Kafka, Docker, Machine Learning
 
 | Book Name   |  Start Date  | End Date  |
 |-------------| -----:|-----:|
 |  Ethereum, Hyperledger Blockchains   |  Jan  |  Feb |
 |  Java 8 in Action  |  Mar   |  Apr    |
-|  Kafka the Definitive Guide, Chapter 5-11  |  Apr  |  May  |
+|  Kafka the Definitive Guide |  Apr  |  May  |
 |  Docker in Action  |  May |  Jun  |
 |  Advanced Analytics with Spark, 2nd | Jun | Jul |
-
+|  Natural Language Processing with Python | Jul | Sep |
 
 ### 2016: Scala, Akka
 
@@ -25,7 +25,6 @@ Highly recommend to the community.
 |  Akka Scala Manual   |  Jan   |  Feb    |
 |  Functional Programming in Scala  |   Feb  |  Feb  |
 |  Scala Functional Programming Patterns  |  Mar | Jun |
-|  Kafka the Definitive Guide, Chapter 1-4  |  Sep   |  Sep |
 |  Akka in Action  |  Oct   |  Dec    |
 
 

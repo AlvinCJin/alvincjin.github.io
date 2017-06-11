@@ -6,6 +6,7 @@ permalink: /about/
 
 
 
+Let the Data Speak for Themselves
 
 ## Education 
 MSc, Computer Science @ University of Waterloo
