@@ -15,8 +15,9 @@ Highly recommend to the community.
 |  Java 8 in Action  |  Mar   |  Apr    |
 |  Kafka the Definitive Guide |  Apr  |  May  |
 |  Docker in Action  |  May |  Jun  |
+|  Natural Language Processing with Python | Jun | Jun |
 |  Advanced Analytics with Spark, 2nd | Jun | Jul |
-|  Natural Language Processing with Python | Jul | Sep |
+|  Spark: The Definitive Guide | Sep | Nov |
 
 ### 2016: Scala, Akka
 
