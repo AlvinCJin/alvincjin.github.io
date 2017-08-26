@@ -3,37 +3,32 @@ layout: post
 title: Reading List
 author: Alvin Jin
 ---
+I keep a habit to read 5 to 10 good technical books per year.
+Below are the technical books, I have read and highly recommend to the community.
 
-Below table records the technical books, which I read before and am working on right now.
-Highly recommend to the community.
+### 2017: Docker, Machine Learning, Tensorflow
 
-### 2017: Kafka, Docker, Machine Learning
-
-| Book Name   |  Start Date  | End Date  |
+| Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
-|  Ethereum, Hyperledger Blockchains   |  Jan  |  Feb |
-|  Java 8 in Action  |  Mar   |  Apr    |
-|  Kafka the Definitive Guide |  Apr  |  May  |
+|  Ethereum, Hyperledger, Blockchain Specs  |  Jan  |  Feb |
+|  Java 8 in Action  |  Mar   |  Apr   |
 |  Docker in Action  |  May |  Jun  |
 |  Natural Language Processing with Python | Jun | Jun |
-|  Advanced Analytics with Spark, 2nd | Jun | Jul |
-|  Spark: The Definitive Guide | Sep | Nov |
+|  Advanced Analytics with Spark, 2nd | Jul | Jul |
+|  Flask Web Development | Aug | Aug |
+|  Learning Tensorflow | Aug | Sep |
+|  Hands-On Machine Learning with Scikit-Learn and TensorFlow | Sep | Oct |
+|  Deep Learning | Nov | Dec |
 
-### 2016: Scala, Akka
 
-| Book Name   | Start Date  | End Date  |
+
+### 2016: Scala, Spark, Kafka, Akka
+
+| Book Name   | Start Month | End Month  |
 |-------------| -----:|-----:|
-|  Akka Scala Manual   |  Jan   |  Feb    |
-|  Functional Programming in Scala  |   Feb  |  Feb  |
-|  Scala Functional Programming Patterns  |  Mar | Jun |
-|  Akka in Action  |  Oct   |  Dec    |
+|  Programming Scala, 2nd     | Jan  |  Feb   |
+|  Scala Functional Programming Patterns  |  Apr | Jun |
+|  Machine Learning with Spark  |  July   |  Aug   |
+|  Kafka the Definitive Guide |  Sep  |  Oct  |
+|  Akka in Action  |  Nov   |  Dec    |
 
-
-### 2015: Scala, Spark, Machine Learning
-
-| Book Name   | Start Date  | End Date  |
-|-------------| -----:|-----:|
-|  Scala Cookbook | Jan |  Mar    |
-|  Programming Scala 2nd     | Apr  |  June    |
-|  Advanced Analytic with Spark    |  July   |   Sep   |
-|  Machine Learning with Spark  |  Oct   |  Dec    |
