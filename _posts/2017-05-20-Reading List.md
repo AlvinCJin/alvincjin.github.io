@@ -3,22 +3,31 @@ layout: post
 title: Reading List
 author: Alvin Jin
 ---
-I keep a habit to read 5 to 10 good technical books per year.
-Below are the technical books, I have read and highly recommend to the community.
+Recent few years, I kept a habit to study a couple of topics and read 5 to 8 technical books per year.
+Below are the technical books, I have read or plan to read.
 
-### 2017: Docker, Machine Learning, Tensorflow
+
+### 2018: TensorFlow, Deep Learning
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
-|  Ethereum, Hyperledger, Blockchain Specs  |  Jan  |  Feb |
+|  Learning Tensorflow | Jan | Feb |
+|  Hands-On Machine Learning with Scikit-Learn and TensorFlow | Mar | Apr |
+
+
+
+### 2017: Docker, Machine/Deep Learning
+
+| Book Name   |  Start Month  | End Month  |
+|-------------| -----:|-----:|
+|  Blockchain Specs: Ethereum, Hyperledger  |  Jan  |  Feb |
 |  Java 8 in Action  |  Mar   |  Apr   |
-|  Docker in Action  |  May |  Jun  |
+|  Docker in Action  |  May |  May  |
 |  Natural Language Processing with Python | Jun | Jun |
 |  Advanced Analytics with Spark, 2nd | Jul | Jul |
 |  Flask Web Development | Aug | Aug |
-|  Learning Tensorflow | Aug | Sep |
-|  Hands-On Machine Learning with Scikit-Learn and TensorFlow | Sep | Oct |
-|  Deep Learning | Nov | Dec |
+|  Deep Learning: A Practitioner's Approach | Sep | Oct |
+|  Deep Learning (Yoshua Bengio) | Nov | Dec |
 
 
 
