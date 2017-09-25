@@ -11,12 +11,11 @@ Below are the technical books, I have read or plan to read.
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
-|  Learning Tensorflow | Jan | Feb |
-|  Hands-On Machine Learning with Scikit-Learn and TensorFlow | Mar | Apr |
+|  Hands-On Machine Learning with Scikit-Learn and TensorFlow | Nov | Dec |
 
 
 
-### 2017: Docker, Machine/Deep Learning
+### 2017: Docker, NLP, Deep Learning
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
@@ -26,8 +25,9 @@ Below are the technical books, I have read or plan to read.
 |  Natural Language Processing with Python | Jun | Jun |
 |  Advanced Analytics with Spark, 2nd | Jul | Jul |
 |  Flask Web Development | Aug | Aug |
-|  Deep Learning: A Practitioner's Approach | Sep | Oct |
-|  Deep Learning (Yoshua Bengio) | Nov | Dec |
+|  Deep Learning: A Practitioner's Approach (Chapter 1-4)| Sep | Sept |
+|  Deep Learning (Yoshua Bengio) | Oct | Dec |
+
 
 
 
