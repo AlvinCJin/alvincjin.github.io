@@ -26,9 +26,9 @@ Below are the technical books, I have read or plan to read.
 |  Advanced Analytics with Spark, 2nd | Jul | Jul |
 |  Flask Web Development | Aug | Aug |
 |  Deep Learning: A Practitioner's Approach (Chapter 1-4)| Sep | Sept |
+|  Deep Learning Specialization (Courses 1-3) | Sept | Oct |
+|  Fast.ai: Practical Deep Learning For Coders| Oct | Dec |
 |  Deep Learning (Yoshua Bengio) | Oct | Dec |
-
-
 
 
 ### 2016: Scala, Spark, Kafka, Akka
