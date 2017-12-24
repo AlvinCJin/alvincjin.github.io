@@ -11,12 +11,12 @@ Below are the technical books, I have read or plan to read.
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
-|  Deep Learning (Yoshua Bengio Chapter 7-10) |  |  |
-|  Deep Learning with Python |  |  |
+|  Deep Learning with Python |  Jan | Jan |
+|  Deep Learning (Yoshua Bengio Chapter 7-11) | Feb | Mar |
 |  Natural Language Processing with PyTorch |  |  |
 
 
-### 2017: Docker, NLP, Deep Learning
+### 2017: Docker, Python, Machine Learning, Deep Learning
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
@@ -25,12 +25,11 @@ Below are the technical books, I have read or plan to read.
 |  Docker in Action  |  May |  May  |
 |  Natural Language Processing with Python | Jun | Jun |
 |  Advanced Analytics with Spark, 2nd | Jul | Jul |
-|  Flask Web Development | Aug | Aug |
-|  Deep Learning: A Practitioner's Approach (Chapter 1-4)| Sep | Sept |
+|  Flask Web Development, 2nd | Aug | Aug |
 |  Deep Learning Specialization (Andrew Ng Courses 1-4) | Sept | Oct |
 |  Fast.ai: Practical Deep Learning For Coders| Oct | Nov |
 |  Deep Learning (Yoshua Bengio Chapter 1-6) | Oct | Nov |
-|  Hands-On Machine Learning with Scikit-Learn and TensorFlow (Chapter 9-15) | Nov | Dec |
+|  Hands-On Machine Learning with Scikit-Learn and TensorFlow (Part II) | Nov | Dec |
 
 ### 2016: Scala, Spark, Kafka, Akka
 
