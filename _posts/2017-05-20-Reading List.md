@@ -7,16 +7,16 @@ Recent few years, I kept a habit to study a couple of topics and read 5 to 8 tec
 Below are the technical books, I have read or plan to read.
 
 
-### 2018: Deep Learning
+### 2018: Deep Learning, PyTorch, Tensorflow
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
 |  Deep Learning with Python |  Jan | Jan |
-|  Deep Learning (Yoshua Bengio Chapter 7-11) | Feb | Mar |
+|  Deep Learning (Yoshua Bengio Ch 7-11) | Feb | Mar |
 |  Natural Language Processing with PyTorch |  |  |
 
 
-### 2017: Docker, Python, Machine Learning, Deep Learning
+### 2017: Docker, Python, Deep Learning
 
 | Book Name   |  Start Month  | End Month  |
 |-------------| -----:|-----:|
@@ -26,9 +26,9 @@ Below are the technical books, I have read or plan to read.
 |  Natural Language Processing with Python | Jun | Jun |
 |  Advanced Analytics with Spark, 2nd | Jul | Jul |
 |  Flask Web Development, 2nd | Aug | Aug |
-|  Deep Learning Specialization (Andrew Ng Courses 1-4) | Sept | Oct |
-|  Fast.ai: Practical Deep Learning For Coders| Oct | Nov |
-|  Deep Learning (Yoshua Bengio Chapter 1-6) | Oct | Nov |
+|  Deep Learning Specialization (Andrew Ng) | Sept | Oct |
+|  Fast.ai: Practical Deep Learning For Coders, Part I| Oct | Nov |
+|  Deep Learning (Yoshua Bengio Ch 1-6) | Oct | Nov |
 |  Hands-On Machine Learning with Scikit-Learn and TensorFlow (Part II) | Nov | Dec |
 
 ### 2016: Scala, Spark, Kafka, Akka
